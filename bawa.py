@@ -67,8 +67,8 @@ def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-
-
+		
+		
 back = 0
 berhasil = []
 cekpoint = []
